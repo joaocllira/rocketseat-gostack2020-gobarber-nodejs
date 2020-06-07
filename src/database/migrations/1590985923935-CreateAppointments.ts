@@ -24,6 +24,7 @@ export default class CreateAppointments1590985923935
                         type: 'timestamp with time zone',
                         isNullable: false,
                     },
+<<<<<<< HEAD
                     {
                         name: 'created_at',
                         type: 'timestamp',
@@ -34,6 +35,8 @@ export default class CreateAppointments1590985923935
                         type: 'timestamp',
                         default: 'now()',
                     },
+=======
+>>>>>>> e2f453e67d9a5b42deef0029b59f30019dac63c8
                 ],
             }),
         );
